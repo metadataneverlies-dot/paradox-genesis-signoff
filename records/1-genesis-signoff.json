@@ -1,0 +1,77 @@
+{
+  "record": {
+    "kind": "paradox.genesis_signoff",
+    "version": 1,
+    "created_at": "2026-11-12T12:54:35.113Z",
+    "statement": "PARADOX genesis sign-off. References Bitcoin block 0 as its anchor point; does not claim control of the Bitcoin genesis key.",
+    "btc_genesis": {
+      "height": 0,
+      "date": "2009-01-03",
+      "timestamp_unix": 1231006505,
+      "timestamp_utc": "2009-01-03T18:15:05Z",
+      "block_hash": "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f",
+      "coinbase_txid": "4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b",
+      "merkle_root": "4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b",
+      "nbits": "1d00ffff",
+      "headline": "The Times 03/Jan/2009 Chancellor on brink of second bailout for banks",
+      "coinbase_pubkey": "04678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb649f6bc3f4cef38c4f35504e51ec112de5c384df7ba0b8d578a4c702b6bf11d5f",
+      "pubkey_hash160": "62e907b15cbf27d5425399ebf6f0fb50ebb88f18",
+      "reward_btc": "50.00000000"
+    },
+    "btc_link_tx": {
+      "txid": "d86bdcbcac4fc73ddc6a7383d85ad902e09333ba9a26f67a41b5908f33757476",
+      "block_height": 963249,
+      "block_hash": "00000000000000000000078011769e060f083326399dfd9c4bd5513decc0a73b",
+      "block_time_unix": 1787197000,
+      "genesis_key_output": {
+        "vout": 1,
+        "sats": 777,
+        "type": "p2pk"
+      },
+      "op_return": {
+        "vout": 2,
+        "label": "CILADABLOCOSBTC",
+        "hash": "9ba85b11207439fda75e55ddd19496e8196a2cf0c7b84fe914dfd8202c53edd2"
+      }
+    },
+    "link_tx_status": "cited",
+    "note": "Cites btc_link_tx; ownership not proven in this record.",
+    "threshold": 3,
+    "signers": [
+      {
+        "id": "b618eda7994e1f43",
+        "type": "ed25519",
+        "pubkey_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAoc19h3nSodtgzDEAmO3MCqUx1gNd7kpI11X9OsFrTEY=\n-----END PUBLIC KEY-----\n"
+      },
+      {
+        "id": "19446a34eb88ad54",
+        "type": "ed25519",
+        "pubkey_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA9NwY+82wIsy+L+3YPVSVGfrOP0491+fsbCURe/kFFYQ=\n-----END PUBLIC KEY-----\n"
+      },
+      {
+        "id": "dd8f5507aca28f15",
+        "type": "ed25519",
+        "pubkey_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAU6KGgBZvyG/ZppeJSLiXruuciTbOVc5bs4AGMgx0yYs=\n-----END PUBLIC KEY-----\n"
+      }
+    ]
+  },
+  "digest_sha256": "41ec6681b137c45e36831c46fbfb997f4022c71d3fc3e4b91d5bb93eeec9c807",
+  "signatures": [
+    {
+      "signer": "b618eda7994e1f43",
+      "file": "signer1.pem",
+      "sig": "OBO2dO6AkIyblA69NyUxdH1vSRcwBBwvCSAMvif4tuf9g95FrJN79067vOFBZXmxyS4O2VdODngiggxC3rPkBA=="
+    },
+    {
+      "signer": "19446a34eb88ad54",
+      "file": "signer2.pem",
+      "sig": "Ddn2Jv81Q3Jwbtsl/OuQ5O5ta+3N1h3ZNbuq3LLDFqLddFph6Xkjhfl9cxCXuqe4vL6fbBdIOSOyoP4DaJYADw=="
+    },
+    {
+      "signer": "dd8f5507aca28f15",
+      "file": "signer3.pem",
+      "sig": "4flNsOMwr8vXVaQ9vp3NWL79zEWTK85TLndfRB/iSttnI82j73TjRIq6ymLdCfDm8h/GyhBn290SjYoBPuvsCw=="
+    }
+  ],
+  "verified": "3-of-3"
+}

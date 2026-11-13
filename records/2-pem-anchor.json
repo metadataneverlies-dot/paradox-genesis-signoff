@@ -1,0 +1,55 @@
+{
+  "record": {
+    "kind": "paradox.anchor",
+    "version": 1,
+    "created_at": "2026-11-12T12:54:35.113Z",
+    "what": "Bitcoin block 0 coinbase public key, PEM (SubjectPublicKeyInfo, secp256k1)",
+    "files": [
+      {
+        "file": "genesis_pubkey_uncompressed.pem",
+        "sha256": "acda77fbd22896a8abbe001bf3aab3fe812729ea039b961500830960ee4fbc24"
+      },
+      {
+        "file": "genesis_pubkey_compressed.pem",
+        "sha256": "c8a3658e6a72f962d8ce0b980e9fdaa7406bad2f8e0dfbcb4c896f97da807a6e"
+      }
+    ],
+    "threshold": 3,
+    "signers": [
+      {
+        "id": "b618eda7994e1f43",
+        "type": "ed25519",
+        "pubkey_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAoc19h3nSodtgzDEAmO3MCqUx1gNd7kpI11X9OsFrTEY=\n-----END PUBLIC KEY-----\n"
+      },
+      {
+        "id": "19446a34eb88ad54",
+        "type": "ed25519",
+        "pubkey_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA9NwY+82wIsy+L+3YPVSVGfrOP0491+fsbCURe/kFFYQ=\n-----END PUBLIC KEY-----\n"
+      },
+      {
+        "id": "dd8f5507aca28f15",
+        "type": "ed25519",
+        "pubkey_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAU6KGgBZvyG/ZppeJSLiXruuciTbOVc5bs4AGMgx0yYs=\n-----END PUBLIC KEY-----\n"
+      }
+    ]
+  },
+  "digest_sha256": "d29ead40f31d4f647086d5357d5c9a47756e67365321c3e3922024cb2e35cd04",
+  "signatures": [
+    {
+      "signer": "b618eda7994e1f43",
+      "file": "signer1.pem",
+      "sig": "7k1I5XW3S0PYgx4eEm9aLzNmVBSIZ1VnBNkNSiYUutv3QXMe5JeqauiJQEDznFN9T/jrtlE5lt7A9ZdCpl7+Ag=="
+    },
+    {
+      "signer": "19446a34eb88ad54",
+      "file": "signer2.pem",
+      "sig": "y95HOnoinPOoEF14FWoxVOfwVysDrG4FEHCD3zel4VNq9fXSwAmpUEvDH2a4TTQX6rm81FR9r2WpqKBQf3nKBg=="
+    },
+    {
+      "signer": "dd8f5507aca28f15",
+      "file": "signer3.pem",
+      "sig": "X90R4V+bMEBes441ATqBzdLKvhGF8Dhks4uqpjmihXu3fgxoUDlxKqarVZR55aIsSiR89TEFcAf7cW17pFJ8CQ=="
+    }
+  ],
+  "verified": "3-of-3"
+}
